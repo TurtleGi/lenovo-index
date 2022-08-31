@@ -1,0 +1,119 @@
+
+/* 热门推荐 */
+.hot__wrapper{
+   
+    height: 310px;
+    position: relative;
+    display: flex;
+  
+}
+.hot .title span{
+    width: 70px;
+}
+.hot__prev,.hot__next{
+width: 25px;
+height: 25px;
+border:1px solid #dee2e7 ;
+}
+.hot__prev{
+    cursor: pointer;
+    position: relative;
+    font-family: 'icomoon';
+    content: '\f104';
+    color: #dee2e7;
+    background-color: #fff;
+}
+.hot__next{
+    cursor: pointer;
+    position: relative;
+    font-family: 'icomoon';
+    content: '\f105';
+    color: #dee2e7;
+    background-color: #fff;
+}
+.hot__prev:hover,.hot__next:hover{
+    background-color: #ef1e0b;
+    color: #fff;
+    border: 1px solid #f4a8a1;
+}
+.hot__list{
+   position: relative;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+.hot__list li{
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.hot__list .hot__list__item-active::after{
+    position: relative;
+    right: -10px;
+    top: 1px;
+    font-family: 'icomoon';
+    content: '\f0da';
+    color: #909090;
+    font-size: 15px;
+
+}
+.hot__list__item-active{
+    color: #e12726;
+}
+.swiper {
+ 
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+  /*   padding-bottom: 50px; */
+  }
+  
+  .swiper-slide {
+  
+    width: 600px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+.swiper-wrapper .swiper-slide-active::before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      width: 100%;
+      height: 310px;
+      background-color: rgba(0, 0, 0, 0.4);
+      transition: all 0.5s;
+     
+  } 
+  .hot_li{
+      width: 200px;
+  }
+  .swiper-wrapper .hot__detail{
+      position: relative;
+      width: 180px;
+      height: 50px;
+      line-height: 25px;
+      bottom: 55px;
+      left: 35px;
+  }
+  .hot__detail h4{
+      font-weight: 400;
+      color: #ffffff;
+    
+  }
+  .hot__detail p{
+      color: #fff;
+      font-size: 10px;
+  }
+
+  .focus_hot img{
+      width: 400px;
+  }

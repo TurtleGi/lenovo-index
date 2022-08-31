@@ -1,0 +1,91 @@
+
+  .banner__nav{
+   
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+
+}
+.banner__nav ul {
+
+     display: flex;
+     justify-content: center;
+     height: 65px;
+
+}
+.banner__nav li{
+   position: relative;
+   display: flex;
+   justify-content: center;
+  width: 400px;
+  height: 70px;
+  text-align: center;
+   cursor: pointer;
+}
+.banner__nav ul li a{
+    width: 400px;
+    color: #454545;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+.banner__border{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100px; 
+    border-bottom: 4px solid #de140a;
+     
+}
+.banner__title:hover .banner__border{
+  display: block !important;
+}
+.product__container{
+    display: none;
+    
+}
+.product__item__logo ul{
+  display: flex;
+  justify-content: space-between;
+}
+.product__item__goods{
+  display: none;
+ 
+}
+.product__item__goods-active{
+  display: flex;
+  justify-content: space-between;
+}
+.product__item__good{
+  width: 280px;
+  height: 350px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px #eee;
+}
+.product__item__good img{
+  width: 220px;
+}
+.product__good__title{
+font-size: 22px;
+padding: 10px 0;
+}
+.product__good__describe{
+  width: 240px;
+  height: 35px;
+  overflow:hidden;
+  color: #9f9f9f;
+  font-size: 13px;
+  /* white-space:nowrap; */
+  display: -webkit-box;/*必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。*/
+  -webkit-line-clamp: 2;/*用来限制在一个块元素显示的文本的行数。*/
+  -webkit-box-orient: vertical;/*必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。*/
+  text-overflow: ellipsis;
+  /* 单纯的使用三兄弟会导致文字在第一行就被省略 */
+}
+.product__good__price{
+  font-size: 18px;
+  margin-top: 10px;
+}

@@ -1,0 +1,107 @@
+
+/* 新闻中心css */
+
+.news__wrapper{
+    position: relative;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.news__swiper{
+    background-color: #ff0000;
+    width: 100%;
+    height: 444px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.news__swiper .news__swiper__bgimg {
+    position: relative;
+  display: flex;
+    width: 400%;
+  }
+  .news__swiper ul li {
+ 
+    width: 25%;
+ 
+  }
+ .news__wrapper .news__circle{
+      position: absolute;
+      bottom: 20px;
+      left: 265px;
+      width: 200px;
+      height: 10px;
+      display: flex;
+      justify-content: center;
+  }
+.news__wrapper .news__circle li{
+      width: 10px;
+      height: 10px;
+      margin: 0 8px;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.8;
+  }
+.news__wrapper .news__circle .news__circle-active{
+      width: 35px;
+      height: 10px;
+      border-radius: 10px;
+      background-color: #fff;
+      opacity: 1;
+  }
+.news__list{
+    margin-left: 10px;
+    width: 440px;
+    height: 447px;
+ 
+
+}
+
+.news__list li{
+    cursor: pointer;
+    position: relative;
+    height: 145px;
+    border-bottom: 3px solid #fff; 
+    background-color: #f4f4f4; 
+}
+.news__list li:hover{
+    border-bottom: 3px solid #e12726;
+}
+.news__list__num{
+    float: left;
+    width: 80px;
+    height: 100%;line-height: 100px;
+    text-align: center;
+    
+    font-size: 50px; 
+    font-weight: 700;
+    color: #c9c9c9;
+}
+
+.news__detail{
+    display: flex;
+    flex-direction: column;
+}
+.news__list__title{
+    margin-top: 30px;
+}
+.news__detail p{
+    color: #949494;
+    overflow:hidden;
+    white-space:nowrap;
+    /*文字超出宽度则显示ellipsis省略号*/
+    text-overflow:ellipsis;
+    width:100%;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+.news__list__time{
+    color: #949494;
+    font-size: 12px;
+}
+.news__list__more{
+    position: absolute;
+    right: 25px;
+    bottom:25px;
+}

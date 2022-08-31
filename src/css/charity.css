@@ -1,0 +1,61 @@
+.charity__wrapper{
+position: relative;
+height: 420px;
+margin: 0 auto;
+}
+.charity__wrapper li{
+    position: relative;
+    transition-duration: 0.4s;
+}
+.charity__describe{
+display: none;
+position:absolute;
+bottom: 30px;
+left: 20px;
+}
+.charity__swiper__middle .charity__describe{
+    display: block;
+}
+.charity__describe h3{
+    color:#fff;
+    opacity:0.8;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.charity__describe p{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 12px;
+    overflow:hidden;
+    white-space:nowrap;
+    /*文字超出宽度则显示ellipsis省略号*/
+    text-overflow:ellipsis;
+    width:400px;
+    margin-bottom: 10px;
+}
+.charity__describe span{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.charity__wrapper li img{
+    width: 600px;
+  
+}
+ .charity__wrapper .charity__swiper__left{
+position: absolute;
+left:0;
+}
+.charity__wrapper .charity__swiper__middle{
+    position: absolute;
+    left: 300px;
+    z-index: 200;
+    transform: scale(1.4);
+}
+.charity__wrapper .charity__swiper__right{
+  position: absolute;
+    left: 600px;
+
+} 

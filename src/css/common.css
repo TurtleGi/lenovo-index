@@ -1,0 +1,59 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin: 0;padding: 0;}
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../assets/fonts/icomoon.eot?tomleg');
+  src:  url('../../assets/fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../../assets/fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../../assets/fonts/icomoon.woff?tomleg') format('woff'),
+    url('../../assets/fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.w{
+  width: 1200px;
+margin: 0 auto;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.title{
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 70px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.title__more::after{
+  position: absolute;
+  font-family: 'icomoon';
+  content: '\f105';
+  font-size: 20px;
+color: #686868;
+right: 8px;
+
+}
+.title h1{
+  display: inline-block;
+
+}
+.title span{
+  width:50px;
+}
+.title span a{
+  color: #6f6f6f;
+}

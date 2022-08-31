@@ -1,0 +1,83 @@
+
+/* 成功案例 */
+.example{
+    position: relative;
+    margin-bottom: 100px;
+}
+.example__wrapper{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+.example__wrapper .example__swiper__bgimg {
+    position: relative;
+  display: flex;
+    width: 500%;
+  }
+.example__swiper__bgimg li {
+    width: 20%;
+
+  }
+
+.example__cube{
+    position: relative;
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+}
+.example__cube__box{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    width: 830px;
+    height:130px;
+    display: flex; 
+    align-items: flex-end;
+  }
+.example__cube__box li{
+      cursor: pointer;
+      width: 200px;
+      height: 110px;
+      padding: 20px 30px;
+      margin-right: 10px;
+      background-color: #fff;
+      transition: all .5s;
+      display: flex;
+      align-items: center;
+  }
+  .example__cube__item-active{
+    height: 160px !important;
+  }
+  .example__cube__box li:last-child{
+      margin-right: 0;
+  }
+  .example__cube__box li h4{
+      font-size: 20px;
+      font-weight: normal;
+       color: #ffffff; 
+      margin-bottom: 10px;
+  }
+  .example__cube__box li p{
+    color: #ffffff; 
+      font-size: 13px;
+      line-height: 23px;
+  }
+ .example__cube__detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .box1{
+     background-image: url(../../assets/img/example/blue.png);
+   
+    }
+ .box2{
+       background-image: url(../../assets/img/example/red.png);
+     }
+ .box3{
+       background-image: url(../../assets/img/example/purple.png);
+     }
+ .box4{
+       background-image: url(../../assets/img/example/orange.png);
+      }

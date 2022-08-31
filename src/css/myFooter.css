@@ -1,0 +1,204 @@
+.footer{
+    height: 480px;
+    background-color: #ededed;
+   margin-top: 100px;
+     
+}
+.footer .footer__report {
+    display: flex;
+    padding-bottom: 27px;
+   border-bottom: 1px solid #dadada;
+   justify-content: space-between;
+}
+.footer  .footer__report li {
+    margin-top: 45px;
+    margin-right: 65px;
+    line-height: 26px;
+ 
+}
+.footer li dt{
+    margin-bottom: 5px; 
+}
+.footer a{
+    color: black;
+}
+.footer dt{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.footer dd{
+    margin-left: 0;
+}
+.footer dd a{
+    font-size: 12px;
+    color: #7b7b7b;
+}
+.footer dd a:hover{
+    color: #484848;
+}
+.footer .footer__report .footer__report__content{
+  
+    margin-top: 76px;
+}
+.footer .serviceR{
+    margin-right: 220px;
+}
+.footer .footer__partner{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer__partner .footer__partner__call{
+width: 220px;
+font-size: 14px;
+}
+.footer .footer__partner .phone{
+    font-weight: 700;
+}
+.footer .footer__partner .time{
+    color: #989a9c;
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer .weibo:hover{
+    width: 30px;
+    height: 30px;
+    transition-duration: 0.6s;
+   
+    transform-origin: center;
+    color: #252525;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -2px 667px;
+} 
+.footer .weibo{transition-duration: 0.6s;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -2px 610px;
+    
+}
+.footer .wechat{
+    width: 30px;
+    height: 30px;
+    transition-duration: 0.6s;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -100px 612px;
+}
+.footer .wechat:hover{
+    transition-duration: 0.6s;
+
+    transform-origin: center;
+    color: #252525;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -100px 669px;
+}
+
+.footer .follow{
+    transition-duration: 0.6s;
+    position: absolute;
+    width: 130px;
+    height: 0px;
+   top: -165px;
+    right:162px;
+    background-image: url(../../assets/img/footer.png);
+    background-position: 1px 515px;
+    background-size: 400px;
+    
+
+}
+.footer .baidu{
+    width: 90px;
+    height: 30px;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -195px 610px;
+}
+.footer .baidu:hover{
+   
+    color: #252525;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -195px 667px;
+}
+.footer .yuanqingweibo{
+    width: 100px;
+    height: 30px;
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -300px 610px;
+    color: #252525;
+}   
+.footer .yuanqingweibo:hover{
+    background-image: url(../../assets/img/footer.png);
+    background-size: 400px;
+    background-position: -300px 668px;
+    color: #252525;
+}   
+.footer__bottom{
+    padding: 10px 0;
+    margin-top: 40px;
+    color: #9c9c9c;
+    font-size: 12px;
+    background-color: #e8e8e8;
+}
+.footer__bottom .w{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom__left{
+    
+    display: flex;
+flex-direction: column;
+
+}
+.footer__bottom__left ul{
+    display: flex;
+  
+    line-height: 20px;
+}
+.footer__bottom__left .bottom__left__copyright li{
+    margin: 0 5px;
+}
+.footer__bottom__left .bottom__left__backup li{
+    margin: 0 2px;
+}
+.footer__bottom__right{
+    position: relative;
+    display: flex;
+    width: 235px;
+    line-height: 40px;
+}
+.bottom__right__country{
+    width: 140px;
+    height: 40px;
+    background-image: url(../../assets/img/footer.png);
+    background-position: 0 200px;
+    background-size: 350px;
+    margin-left: 10px;
+}
+.footer__bottom__right .bottom__right__list{
+    position: absolute;
+    top: -170px;
+    right: -21px;
+    width: 160px;
+    height: 180px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+    overflow-y: scroll;
+    display: none;
+}
+.footer__bottom__right .bottom__right__list li{
+    height: 30px;
+    padding: 0 10px;
+}
+.footer__bottom__right .bottom__right__list li:hover{
+    color: #e22355;
+}
