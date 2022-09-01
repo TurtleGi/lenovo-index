@@ -2,7 +2,6 @@ let bannerTitle = document.querySelectorAll('.banner__title')
 let productContainer = document.querySelectorAll('.product__container')
 bannerTitle.forEach((value, index) => {
 
-    console.log(value, index)
     value.addEventListener('click', function () {
         clearItemStyle()
         this.children[0].style.display = 'block'
@@ -19,7 +18,7 @@ productLogoList.forEach((value,index)=>{
 value.addEventListener('mouseenter',()=>{
     clearLogoStyle()
     clearGoodStyle()
-    value.children[0].src='../assets/img/computer_active.png'
+    value.children[0].src='./assets/img/computer_active.png'
     productGoodList[index].classList.add("product__item__goods-active")
 })
 
@@ -37,7 +36,7 @@ function clearItemStyle() {
 
 function clearLogoStyle(){
     productLogoList.forEach((value)=>{
-        value.children[0].src='../assets/img/computer.png'
+        value.children[0].src='./assets/img/computer.png'
     })
 }
 
