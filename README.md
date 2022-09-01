@@ -5,3 +5,5 @@
 
 
 更新：修复了原有页面效果的bug，CSS命名大部分遵从BEM规范，简化了js冗余的代码。
+
+预览页面：https://turtlegi.github.io/lenovo-index/
